@@ -1,0 +1,13 @@
+.aboutMe {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.work {
+    font-weight: 500;
+}
+
+.self {
+    font-weight: 400;
+}
