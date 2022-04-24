@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from './components/Title'
 import Work from './components/Work'
+import Projects from './components/Projects'
 import Helmet from 'react-helmet';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         </Helmet>
       <Title />
       <Work />
+      <Projects />
     </div>
   );
 }

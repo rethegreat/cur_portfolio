@@ -3,9 +3,14 @@ import React from "react";
 import Cover from './cover.jpeg'
 
 
+
 export default function Title(){
+
+    //Add the Name and menu into a nav bar
+    //Make the photo dragable to show different pictures
+
     return (
-        <div className="title">
+        <div className="title" >
             <div className='intro'>
                 <h2>Boaz Cheung</h2>
                 <h2>Current Student at the University of Toronto</h2>

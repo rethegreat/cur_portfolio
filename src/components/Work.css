@@ -1,13 +1,38 @@
 .aboutMe {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
+    padding: 150px;
 }
 
 .work {
-    font-weight: 500;
+    font-weight: 550;
+    width: 350px;
+    font-size: 22px;
+    line-height: 1.5;
 }
 
 .self {
     font-weight: 400;
+    width: 200px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.learnMore {
+    margin-left: 20px;
+    width: 160px;
+    height: 160px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.circleText {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
 }

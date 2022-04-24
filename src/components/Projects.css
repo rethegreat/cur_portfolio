@@ -1,0 +1,29 @@
+.projectTitle {
+    text-align: center;
+    padding: 50px;
+}
+
+.projectPicture {
+    width: 50%;
+    height: auto;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.projectText {
+    width: 300px;
+    padding: 100px;
+}
+
+.projectText h1 {
+    font-size: 50px;
+}
+
+.projectText p {
+    line-height: 2;
+    font-weight: 300;
+}
