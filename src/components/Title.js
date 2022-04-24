@@ -15,7 +15,7 @@ export default function Title(){
                 <h2>Boaz Cheung</h2>
                 <h2>Current Student at the University of Toronto</h2>
                 <h2>Born in Hong Kong, <br></br> raised globally</h2>
-                <h2>Work, About, Contact</h2>
+                <h2>Projects, About, Contact</h2>
 
             </div>
             <div className='main'>

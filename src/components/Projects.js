@@ -29,7 +29,7 @@ export default function Project(){
             </div>
             <div className='project'>
                 <img src={Umate} alt='picture of a group of friends' className='projectPicture'data-aos="fade-right"/>
-                <div className='projectText' data-aos="fade-left">
+                <div className='projectText right' data-aos="fade-left">
                     <h1>UMate</h1>
                     <p>
                         An app created for university students to find roomates for off campus housing using match making algorithms

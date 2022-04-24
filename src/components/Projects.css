@@ -16,7 +16,13 @@
 
 .projectText {
     width: 300px;
-    padding: 100px;
+    padding-left: 100px;
+}
+
+.right {
+    width: 300px;
+    padding-right: 100px;
+    padding-left: 0px;
 }
 
 .projectText h1 {
