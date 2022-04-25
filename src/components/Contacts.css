@@ -25,5 +25,46 @@
 }
 
 .contactInfo {
-    
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-bottom: 50px;
+}
+
+.contactInfo a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contactInfo h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-describtion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.top {
+    color: #adadad;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
 }

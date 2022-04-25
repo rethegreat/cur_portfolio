@@ -2,6 +2,7 @@ import './Work.css'
 import React from 'react'
 import Aos from "aos"
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
 
 export default function Work(){
     React.useEffect(
@@ -10,10 +11,6 @@ export default function Work(){
         }, []
     )
 
-    // Add more pages and make the Learn More button work
-    function learnMore(){
-        
-    }
 
     return (
         <div className='aboutMe' >
@@ -24,9 +21,11 @@ export default function Work(){
             <h3 className='self' data-aos="slide-left">
                 In my free times I boulder, and solve different type of problems to challenge myself think critically about each situation. 
 
-                <button className='learnMore' onClick={learnMore}>
-                    <p className='circleText'>Learn More About me</p>
+                <Link to='/about'>
+                <button className='learnMore'>
+                    <p className='circleText'>About me</p>
                 </button>
+                </Link>
             </h3>
         </div>
     )

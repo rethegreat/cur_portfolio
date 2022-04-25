@@ -1,9 +1,8 @@
 import React from 'react'
-import Title from './components/Title'
-import Work from './components/Work'
-import Projects from './components/Projects'
-import Contacts from './components/Contacts'
-import Helmet from 'react-helmet';
+import Home from './Home'
+import AboutMe from './About_me_page/aboutMe'
+import Helmet from 'react-helmet'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
@@ -12,10 +11,12 @@ function App() {
             <meta charSet="utf-8" />
             <title>Boaz Cheung</title>
         </Helmet>
-      <Title />
-      <Work />
-      <Projects />
-      <Contacts />
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<AboutMe />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

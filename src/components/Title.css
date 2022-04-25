@@ -2,6 +2,11 @@
     background-color: #f5f3ed;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
 .coverPicture {
     width: 518px;
     height: 389px;

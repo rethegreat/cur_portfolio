@@ -25,10 +25,10 @@ export default function Project(){
                         for how they can spend their free time with friends
                     </p>
                 </div>
-                <img src={amitee} alt='picture of a group of friends' className='projectPicture' data-aos="fade-left"/>
+                <img src={amitee} alt='a group of friends' className='projectPicture' data-aos="fade-left"/>
             </div>
             <div className='project'>
-                <img src={Umate} alt='picture of a group of friends' className='projectPicture'data-aos="fade-right"/>
+                <img src={Umate} alt='a group of friends' className='projectPicture'data-aos="fade-right"/>
                 <div className='projectText right' data-aos="fade-left">
                     <h1>UMate</h1>
                     <p>
@@ -43,7 +43,7 @@ export default function Project(){
                         A game enabling you to experience the life of a medival peasent through everyday actions
                     </p>
                 </div>
-                <img src={medival} alt='picture of a group of friends' className='projectPicture' data-aos="fade-left"/>
+                <img src={medival} alt='a group of friends' className='projectPicture' data-aos="fade-left"/>
             </div>
         </div>
     )
