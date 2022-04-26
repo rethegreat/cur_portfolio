@@ -1,5 +1,5 @@
 .title {
-    background-color: #f5f3ed;
+    background-color: #f7f0dc;
 }
 
 .navbar {
@@ -7,10 +7,22 @@
     width: 100%;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+
 .coverPicture {
     width: 518px;
     height: 389px;
     border-radius: 5px;
+    padding-left: 50px;
+}
+
+.mobileCoverPicture {
+    width: 100%;
+    height: auto;
 }
 
 .arrowDown {
@@ -30,15 +42,11 @@
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-
 }
 
-.main {
-    padding-left: 50px;
-}
 
 .main h1 {
-    padding-left: 0px;
+    padding-left: 50px;
     font-size: 60px;
 }
 
@@ -49,9 +57,22 @@
     align-items: center;
 }
 
+.mobileBottom {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 50px;
+}
+
 .bottom p {
     font-size: 60px;
     font-weight: 700;
+}
+
+.mobileBottom p {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .quote {
@@ -60,6 +81,7 @@
 
 .name {
     font-size: 60px;
+    margin-bottom: 20px;
 }
 
 .bottomRightArrow {

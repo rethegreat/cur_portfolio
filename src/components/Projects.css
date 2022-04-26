@@ -14,15 +14,20 @@
     margin-bottom: 50px;
 }
 
+.mobileProject img{
+    width: 80%;
+    padding-left: 10%;
+}
+
+.mobileProject {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .projectText {
     width: 300px;
     padding-left: 100px;
-}
-
-.right {
-    width: 300px;
-    padding-right: 100px;
-    padding-left: 0px;
+    padding-bottom: 50px;
 }
 
 .projectText h1 {

@@ -4,13 +4,13 @@ import Work from './components/Work'
 import Projects from './components/Projects'
 import Contacts from './components/Contacts'
 
-function Home() {
+function Home(props) {
   return (
     <div>
-      <Title />
-      <Work />
-      <Projects />
-      <Contacts />
+      <Title windowWidth={props.windowWidth}/>
+      <Work windowWidth={props.windowWidth}/>
+      <Projects windowWidth={props.windowWidth}/>
+      <Contacts windowWidth={props.windowWidth}/>
     </div>
   );
 }

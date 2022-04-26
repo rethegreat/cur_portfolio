@@ -6,7 +6,7 @@ import amitee from './amitee.jpg'
 import Aos from "aos"
 import 'aos/dist/aos.css'
 
-export default function Project(){
+export default function Project(props){
 
     React.useEffect(
         () => {
@@ -17,7 +17,7 @@ export default function Project(){
     return (
         <div>
             <h2 className='projectTitle' data-aos="zoom-in">My Projects</h2>
-            <div className='project'>
+            <div className={props.windowWidth > 900 ? 'project' : 'mobileProject'}>
                 <div className='projectText' data-aos="fade-right">
                     <h1>Amitee</h1>
                     <p>
@@ -27,16 +27,16 @@ export default function Project(){
                 </div>
                 <img src={amitee} alt='a group of friends' className='projectPicture' data-aos="fade-left"/>
             </div>
-            <div className='project'>
-                <img src={Umate} alt='a group of friends' className='projectPicture'data-aos="fade-right"/>
-                <div className='projectText right' data-aos="fade-left">
+            <div className={props.windowWidth > 900 ? 'project' : 'mobileProject'}>
+                <div className='projectText ' data-aos="fade-left">
                     <h1>UMate</h1>
                     <p>
                         An app created for university students to find roomates for off campus housing using match making algorithms
                     </p>
                 </div>
+                <img src={Umate} alt='a group of friends' className='projectPicture'data-aos="fade-right"/>
             </div>
-            <div className='project'>
+            <div className={props.windowWidth > 900 ? 'project' : 'mobileProject'}>
                 <div className='projectText' data-aos="fade-right">
                     <h1>Medival Life</h1>
                     <p>

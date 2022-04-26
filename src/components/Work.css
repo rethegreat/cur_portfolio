@@ -2,7 +2,12 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutMe p {
+    width: 7%;
 }
 
 .work {
@@ -29,11 +34,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
 }
 
-.circleText {
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-}

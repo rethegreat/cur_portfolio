@@ -7,9 +7,10 @@
     display: flex;
     flex-direction: row;
     width: 50%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-top: 100px;
+    padding-left: 50px;
 }
 
 .invitation h3 {

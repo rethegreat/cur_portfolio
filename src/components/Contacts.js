@@ -1,10 +1,18 @@
 import React from "react";
 import Contact from './contact.jpeg'
 import './Contacts.css'
+import Aos from "aos"
+import 'aos/dist/aos.css'
 
-export default function Contacts(){
+export default function Contacts(props){
+    React.useEffect(
+        () => {
+            Aos.init({ duration: 2000})
+        }, []
+    )
+
     return (
-        <div className="contacts">
+        <div className="contacts" data-aos="slide-up">
             <div className="invitation">
                 
                 <h3>Work with me</h3>
@@ -12,7 +20,7 @@ export default function Contacts(){
             </div>
             <div className="contactInfo">
                 <h4>Contact me at</h4>
-                <a href='mailto:boazcheung2003@gmail.com'>boazcheung2003@gmail.com</a>
+                <a href='mailto:boazcheung2003@gmail.com'>boazcheung2003@{props.windowWidth < 580 && ' ' }gmail.com</a>
                 <h3>+1 647-764-3124</h3>
             </div>
 

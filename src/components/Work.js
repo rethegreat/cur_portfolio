@@ -2,7 +2,8 @@ import './Work.css'
 import React from 'react'
 import Aos from "aos"
 import 'aos/dist/aos.css'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+
 
 export default function Work(){
     React.useEffect(
@@ -11,22 +12,35 @@ export default function Work(){
         }, []
     )
 
+    function changeColor(event){
+        event.target.style.background = '#e6c66e'
+        event.target.style.color = 'black'
+    }
+
+
+    function mouseLeave(event){
+        event.target.style.background = 'black'
+        event.target.style.color = 'white'
+    }
+    
 
     return (
         <div className='aboutMe' >
+            <p> </p>
             <h3 className='work' data-aos="slide-right">
                 Passionate about building a future with web and applications that are accessible and inclusive for all. Positively impacting the life for those that use these technologies.
             </h3>
-
+            <p> </p>
             <h3 className='self' data-aos="slide-left">
                 In my free times I boulder, and solve different type of problems to challenge myself think critically about each situation. 
 
-                <Link to='/about'>
-                <button className='learnMore'>
-                    <p className='circleText'>About me</p>
+                <NavLink to='/about'>
+                <button className='learnMore' onMouseOver={changeColor} onMouseLeave={mouseLeave}>
+                    About me
                 </button>
-                </Link>
+                </NavLink>
             </h3>
+            <p> </p>
         </div>
     )
 }
