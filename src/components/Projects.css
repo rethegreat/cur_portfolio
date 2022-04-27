@@ -38,3 +38,9 @@
     line-height: 2;
     font-weight: 300;
 }
+
+.uMate {
+    padding-left: 0px;
+    padding-right: 100px;
+    flex-direction: row-reverse;
+}

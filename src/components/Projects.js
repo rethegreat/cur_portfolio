@@ -27,7 +27,7 @@ export default function Project(props){
                 </div>
                 <img src={amitee} alt='a group of friends' className='projectPicture' data-aos="fade-left"/>
             </div>
-            <div className={props.windowWidth > 900 ? 'project' : 'mobileProject'}>
+            <div className={props.windowWidth > 900 ? 'project uMate' : 'mobileProject'}>
                 <div className='projectText ' data-aos="fade-left">
                     <h1>UMate</h1>
                     <p>
@@ -35,6 +35,7 @@ export default function Project(props){
                     </p>
                 </div>
                 <img src={Umate} alt='a group of friends' className='projectPicture'data-aos="fade-right"/>
+                
             </div>
             <div className={props.windowWidth > 900 ? 'project' : 'mobileProject'}>
                 <div className='projectText' data-aos="fade-right">

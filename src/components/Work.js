@@ -3,6 +3,7 @@ import React from 'react'
 import Aos from "aos"
 import 'aos/dist/aos.css'
 import { NavLink } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 
 export default function Work(){
@@ -35,9 +36,15 @@ export default function Work(){
                 In my free times I boulder, and solve different type of problems to challenge myself think critically about each situation. 
 
                 <NavLink to='/about'>
-                <button className='learnMore' onMouseOver={changeColor} onMouseLeave={mouseLeave}>
+                <motion.button 
+                    className='learnMore' 
+                    onMouseOver={changeColor} 
+                    onMouseLeave={mouseLeave}
+                    whileHover={{scale:1.1}}
+                    whileTap={{scale:.9}}
+                >
                     About me
-                </button>
+                </motion.button>
                 </NavLink>
             </h3>
             <p> </p>
