@@ -28,12 +28,13 @@ function App() {
             <meta charSet="utf-8" />
             <title>Boaz Cheung</title>
         </Helmet>
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path='/' element={<Home windowWidth={windowWidth} />} />
           <Route path='/about' element={<AboutMe windowWidth={windowWidth} />} />
         </Routes>
-      </Router>
+      </Router> */}
+      <Title windowWidth={windowWidth} />
     </div>
   );
 }

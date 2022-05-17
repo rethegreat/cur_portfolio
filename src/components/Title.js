@@ -27,16 +27,13 @@ export default function Title(props){
 
         <div className="title" >
             <nav className='navbar intro'>
-                <h2 onMouseEnter={changeColor} onMouseLeave={mouseLeave}><NavLink to='/' onClick={() => window.scrollTo(0, 0) }>Boaz Cheung</NavLink></h2>
+                <h2>Boaz Cheung</h2>
                 <h2> </h2>
                 <h2> </h2>
                 <h2 >
-                    <NavLink to='/about'>
-                        <span onMouseEnter={changeColor} onMouseLeave={mouseLeave}>About</span></NavLink>, 
-                    <NavLink to='/' onClick={() => window.scrollTo(0, 1450)}> 
-                        <span onMouseEnter={changeColor} onMouseLeave={mouseLeave}> Projects</span></NavLink>,
-                    <NavLink to='/' onClick={() => window.scrollTo(0, 3500)}> 
-                        <span onMouseEnter={changeColor} onMouseLeave={mouseLeave}> Contact</span></NavLink>
+                    <span>About </span>
+                    <span>Project </span>
+                    <span>Contact </span>
                 </h2>
             </nav>
             <div className='intro'>
