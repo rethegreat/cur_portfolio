@@ -1,8 +1,8 @@
 {
   "name": "cur_portfolio",
   "version": "0.1.0",
-  "private": false,
-  "homepage": "https://rethegreat.github.io",
+  "private": true,
+  "homepage": "https://rethegreat.github.io/cur_portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
