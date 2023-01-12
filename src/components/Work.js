@@ -35,7 +35,7 @@ export default function Work(){
             <h3 className='self' data-aos="slide-left">
                 In my free times I boulder, and solve different type of problems to challenge myself think critically about each situation. 
 
-                <NavLink to='/about'>
+                {/* <NavLink to='/about'> */}
                 <motion.button 
                     className='learnMore' 
                     onMouseOver={changeColor} 
@@ -45,7 +45,7 @@ export default function Work(){
                 >
                     About me
                 </motion.button>
-                </NavLink>
+                {/* </NavLink> */}
             </h3>
             <p> </p>
         </div>

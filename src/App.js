@@ -1,8 +1,8 @@
 import React from 'react'
 import Home from './Home'
-import AboutMe from './About_me_page/aboutMe'
 import Helmet from 'react-helmet'
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
+
 
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
           <Route path='/about' element={<AboutMe windowWidth={windowWidth} />} />
         </Routes>
       </Router> */}
-      <Title windowWidth={windowWidth} />
+      <Home windowWidth={windowWidth} />
     </div>
   );
 }
