@@ -1,6 +1,8 @@
 import "./Title.css";
 import React from "react";
 import Cover from "./cover.jpeg";
+import Download from "./download_icon.svg";
+
 import { NavLink } from "react-router-dom";
 
 export default function Title(props) {
@@ -18,12 +20,16 @@ export default function Title(props) {
   return (
     <div className="title">
       <nav className="navbar intro">
-        <div>Boaz Cheung</div>
-        <div> </div>
-        <div>
-          <span>About </span>
-          <span>Project </span>
-          <span>Contact </span>
+        <div className="name-nav">Boaz Cheung</div>
+
+        <a href={`${process.env.PUBLIC_URL}/resume.pdf`} target="_blank" rel="noopener noreferrer">
+          Downlaod Resume<img className="downloadIcon" src={Download}/>
+        </a> 
+
+        <div className="menu">
+          <div>About </div>
+          <div>Project </div>
+          <div>Contact </div>
         </div>
       </nav>
       <div className="main">

@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    overflow-x: hidden;
 }
 
 .mobileProject img{
@@ -22,6 +23,7 @@
 .mobileProject {
     display: flex;
     flex-direction: column-reverse;
+    overflow-x: hidden;
 }
 
 .projectText {
