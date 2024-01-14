@@ -20,7 +20,7 @@ export default function Contacts(props){
             </div>
             <div className="contactInfo">
                 <h4>Contact me at</h4>
-                <a href='mailto:boazcheung2003@gmail.com'>boazcheung2003@{props.windowWidth < 580 && ' ' }gmail.com</a>
+                <a href='mailto:woming.cheung@mail.utoronto.ca'>woming.cheung@{props.windowWidth < 580 && ' ' }mail.utoronto.ca</a>
                 <h3>+1 647-764-3124</h3>
             </div>
 
