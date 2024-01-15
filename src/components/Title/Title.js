@@ -23,7 +23,7 @@ export default function Title(props) {
         <div className="name-nav">Boaz Cheung</div>
 
         <a href={`${process.env.PUBLIC_URL}/resume.pdf`} target="_blank" rel="noopener noreferrer">
-          Downlaod Resume<img className="downloadIcon" src={Download}/>
+          Download Resume<img className="downloadIcon" src={Download}/>
         </a> 
 
         <div className="menu">

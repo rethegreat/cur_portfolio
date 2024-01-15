@@ -1,5 +1,6 @@
 .projectTitle {
     text-align: center;
+    color: black;
     padding-bottom: 50px;
 }
 
@@ -41,9 +42,8 @@
     font-weight: 300;
 }
 
-.uMate {
-    padding-left: 0px;
-    padding-right: 100px;
+.reverse {
+    justify-content: flex-end;
     flex-direction: row-reverse;
 }
 
