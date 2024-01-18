@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/cur_portfolio/static/css/main.32553ee6.css",
-    "main.js": "/cur_portfolio/static/js/main.67c1f13d.js",
+    "main.css": "/cur_portfolio/static/css/main.4eb46c27.css",
+    "main.js": "/cur_portfolio/static/js/main.fc92f3b0.js",
     "static/js/787.d39229fc.chunk.js": "/cur_portfolio/static/js/787.d39229fc.chunk.js",
     "static/media/umate.jpg": "/cur_portfolio/static/media/umate.fb2f6195c2721fc114b0.jpg",
     "static/media/amitee.jpg": "/cur_portfolio/static/media/amitee.1184c2e1d38b5b102c93.jpg",
+    "static/media/study.png": "/cur_portfolio/static/media/study.ddbe3aff75009bc4d1f4.png",
     "static/media/cover.jpeg": "/cur_portfolio/static/media/cover.672680484749071d3f71.jpeg",
     "static/media/spending.jpeg": "/cur_portfolio/static/media/spending.ca4a1d6ddc66e6e05b2a.jpeg",
     "static/media/contact.jpeg": "/cur_portfolio/static/media/contact.1dcd7df0a63b4ef728ad.jpeg",
+    "static/media/download_icon.svg": "/cur_portfolio/static/media/download_icon.e19e4765f223f61db42d28f92ddbcd4e.svg",
     "index.html": "/cur_portfolio/index.html",
-    "main.32553ee6.css.map": "/cur_portfolio/static/css/main.32553ee6.css.map",
-    "main.67c1f13d.js.map": "/cur_portfolio/static/js/main.67c1f13d.js.map",
+    "main.4eb46c27.css.map": "/cur_portfolio/static/css/main.4eb46c27.css.map",
+    "main.fc92f3b0.js.map": "/cur_portfolio/static/js/main.fc92f3b0.js.map",
     "787.d39229fc.chunk.js.map": "/cur_portfolio/static/js/787.d39229fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32553ee6.css",
-    "static/js/main.67c1f13d.js"
+    "static/css/main.4eb46c27.css",
+    "static/js/main.fc92f3b0.js"
   ]
 }
