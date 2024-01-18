@@ -51,6 +51,7 @@ export default function Title(props) {
         </h3>
         <h3 className="name">Boaz Cheung</h3>
       </div>
+      <div className="seperator"></div>
     </div>
   );
 }
