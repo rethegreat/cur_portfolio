@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import Umate from './umate.jpg'
-import spending from './spending.jpeg'
+import shopping from './shopping.jpeg'
 import amitee from './amitee.jpg'
 import study from './study.png'
 import Aos from "aos"
@@ -54,7 +54,7 @@ export default function Project(props){
                         Web app is designed to help you keep track of your spending habits and make informed decisions about your finances.
                     </p>
                 </div>
-                <img src={spending} alt='a group of friends' className='projectPicture' data-aos="fade-left"/>
+                <img src={shopping} alt='a group of friends' className='projectPicture' data-aos="fade-left"/>
             </div>
         </div>
     )
